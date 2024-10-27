@@ -10,44 +10,33 @@
 
 
 
-
-
-
 class Image {
 private:
     unsigned char* imageData;
-    unsigned int width, height;
-
-
+    unsigned char width, height;
 
 
 public:
-    Image();
 
 
     Image(unsigned char* imageData);
 
-
     unsigned char *getImageData();
-
 
     unsigned char *getPixelData();
 
-
     unsigned char getWidth();
-
 
     unsigned char getHeight();
 
-
     void setImageData(unsigned char *newData);
-
 
 };
 
 
 
-
-
-
 #endif //IMAGE_H
+
+
+
+
